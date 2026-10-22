@@ -81,17 +81,17 @@ As contas iniciais são `ana@kurio.test` e `bruno@kurio.test`, com senha `Coleci
 
 Se o deploy falhar, abra **Build Logs** e verifique a primeira mensagem de erro. Se o site abrir e uma rota direta retornar 404, confira a Root Directory e se `vercel.json` foi enviado. Se as APIs retornarem 404 no navegador, confira `VITE_ENABLE_MOCKS=true`, faça um novo deploy e confirme que `/mockServiceWorker.js` abre como JavaScript.
 
-## 5. Completar o README e entregar
+## 5. Manter os links e entregar
 
-No README já estão documentados setup, variáveis, contas, comandos de teste, cenários e reset, conforme a seção 12 do enunciado. Após publicar:
+O README contém os links da aplicação e do repositório no início, além de setup, variáveis, contas, comandos de teste, cenários e reset. Ao publicar uma cópia própria ou alterar o endereço:
 
-1. Substitua a linha Repositório GitHub da tabela de links pela URL real do repositório.
-2. Substitua a linha Aplicação na Vercel pela URL real de produção.
-3. Salve e envie essa alteração ao GitHub.
+1. Atualize os links da aplicação, do repositório e do painel de cenários no README, incluindo a URL do comando de clone.
+2. Confira se os endereços abrem publicamente e correspondem ao código entregue.
+3. Salve e envie as alterações ao GitHub.
 
 ```powershell
 git add README.md
-git commit -m "Documenta links da entrega"
+git commit -m "Atualiza documentação da entrega"
 git push
 ```
 

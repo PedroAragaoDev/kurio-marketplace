@@ -79,10 +79,10 @@ Configuração reproduzível: `scripts/lighthouse.mjs`. Relatórios completos em
 
 ## Pendências e limites
 
-1. **Repositório remoto:** o autor optou por criar e publicar o repositório pelo próprio login. Nenhum repositório foi criado e nenhum push foi realizado pelo agente. O passo a passo está em `docs/06-PUBLICACAO.md`.
-2. **Deploy:** configuração Vercel preparada para importação manual pelo autor, mas ainda sem URL pública. ENT-02 e ENT-03 dependem da publicação e de smoke tests nas rotas e nos eventos do ambiente publicado.
+1. **Repositório remoto:** publicado pelo autor em [PedroAragaoDev/kurio-marketplace](https://github.com/PedroAragaoDev/kurio-marketplace). A publicação e os pushes foram realizados pelo autor; o agente preparou os arquivos e as instruções.
+2. **Deploy:** publicado pelo autor em [kurio-marketplace-five.vercel.app](https://kurio-marketplace-five.vercel.app/), com conclusão informada em 22/10/2026 e captura de sucesso da Vercel. A ferramenta de consulta não conseguiu acessar a URL para verificar os fluxos. Permanecem pendentes os smoke tests de rotas, refresh, compra e eventos no ambiente publicado, além da identificação do commit avaliado.
 3. **Fidelidade visual:** implementação baseada na exportação rasterizada fornecida. A fonte original e os tokens estruturados não estavam disponíveis. Proporções e tokens foram aproximados; não se declara fidelidade pixel a pixel. As substituições estão em ARCHITECTURE.
 4. **Escopo da simulação:** persistência local ao navegador, transporte textual do namespace padrão Socket.IO e credenciais fictícias. Não há pagamentos, autenticação de produção ou blockchain reais.
 5. **Performance:** início mobile com mediana 89, diante da meta 90. As evidências e a causa observada estão descritas acima.
 
-Os testes locais e a configuração de hospedagem não comprovam publicação. A versão remota deverá corresponder a estes fontes, com identificação do commit e verificação de acesso direto, refresh, compra simulada e Socket.IO.
+As execuções de testes e auditorias registradas acima são locais. A publicação foi informada pelo autor e não substitui a conferência dos fluxos remotos. A versão publicada deve corresponder ao código entregue, com identificação do commit e verificação de acesso direto, refresh, compra simulada e Socket.IO.
