@@ -75,11 +75,11 @@ As referências fornecidas estão em `Frontend Challenge/`. Os recortes de quatr
 
 O [guia de publicação no GitHub e na Vercel](docs/06-PUBLICACAO.md) contém o passo a passo para Windows, configuração do deploy, atualização do README e conferência da URL pública. A URL pública e a referência do repositório devem corresponder à versão efetivamente entregue.
 
-| Links da entrega | Estado |
+| Links da entrega | URL |
 | --- | --- |
-| Repositório GitHub | Pendente de criação pelo autor |
-| Aplicação na Vercel | Pendente de deploy pelo autor |
+| Repositório GitHub | [PedroAragaoDev/kurio-marketplace](https://github.com/PedroAragaoDev/kurio-marketplace) |
+| Aplicação na Vercel | [KURIO Marketplace](https://kurio-marketplace-five.vercel.app/) |
 
-Após publicar, substitua os estados acima pelas URLs reais. A seção 12 do desafio exige ambos os links, além das instruções de execução, variáveis, credenciais, seleção/reset de cenários e testes documentados neste README.
+A seção 12 do desafio exige ambos os links, além das instruções de execução, variáveis, credenciais, seleção/reset de cenários e testes documentados neste README.
 
 Consulte [ARCHITECTURE](ARCHITECTURE.md), [contratos REST e eventos](docs/04-CONTRATOS.md) e o [mapeamento de aceite](docs/02-CRITERIOS-DE-ACEITE.md).
